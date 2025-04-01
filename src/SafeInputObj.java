@@ -106,7 +106,7 @@ public class SafeInputObj
      * @param high - high value inclusive
      * @return  - double value within the specified inclusive range
      */
-    public  double getRangedDouble(String prompt, int low, int high)
+    public  double getRangedDouble(String prompt, double low, double high)
     {
         double retVal = 0;
         String trash = "";
